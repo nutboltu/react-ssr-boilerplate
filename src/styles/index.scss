@@ -1,2 +1,6 @@
 @import './colors';
 @import './base';
+
+input:disabled {
+  background: plum;
+}
