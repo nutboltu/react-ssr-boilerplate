@@ -12,7 +12,7 @@ const serverData = window.__SERVER_DATA__;
 
 export const main = () => {
   Loadable.preloadReady().then(() => {
-    ReactDOM.hydrate(
+    ReactDOM.render(
       <ServerDataProvider value={serverData}>
         <BrowserRouter>
           <App />
